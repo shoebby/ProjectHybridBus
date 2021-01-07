@@ -1,14 +1,14 @@
 ###
 # Unity folders and files
 ###
-[Aa]ssets/AssetStoreTools*
-[Aa]ssets/ExampleAssets*
-[Bb]uild/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
+/VRbustrip-GH/[Aa]ssets/AssetStoreTools*
+/VRbustrip-GH/[Aa]ssets/ExampleAssets*
+/VRbustrip-GH/[Bb]uild/
+/VRbustrip-GH/[Ll]ibrary/
+/VRbustrip-GH/[Ll]ocal[Cc]ache/
+/VRbustrip-GH/[Oo]bj/
+/VRbustrip-GH/[Tt]emp/
+/VRbustrip-GH/[Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
