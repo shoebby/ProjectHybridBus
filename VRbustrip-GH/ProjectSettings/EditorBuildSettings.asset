@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/busStop.unity
+    path: Assets/_Thomas/_scenes/busStop.unity
     guid: ea2daac4b8c86264eae572afffa52a97
   - enabled: 1
-    path: Assets/Scenes/VRbox.unity
+    path: Assets/_Thomas/_scenes/VRbox.unity
     guid: de8d15454bec55a4392a61b823a7c001
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a9ed63c229bb3bb4698a880b95c67134, type: 2}
