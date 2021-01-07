@@ -21,6 +21,7 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c69221418006439262f2434
       flags: 0
     RecentlyUsedScenePath-5:
+<<<<<<< Updated upstream
       value: 22424703114646643906032f1130102f05141d24293b6932383a2e27edf07a2decee22f0
       flags: 0
     RecentlyUsedScenePath-6:
@@ -31,6 +32,9 @@ EditorUserSettings:
       value: 2242470311464664250b0826116c603813131c2b1f2b233e2867083debf42d
 =======
       value: 22424703114646643906032f1130102f05141d24293b69061f2b122bacf53a31f6fe
+>>>>>>> Stashed changes
+=======
+      value: 22424703114646643d0b1c2b1a2d102f26120823262615332827187df7ee3d2cfb
 >>>>>>> Stashed changes
       flags: 0
     UnityEditor.ShaderGraph.FloatingWindowsLayout2:
