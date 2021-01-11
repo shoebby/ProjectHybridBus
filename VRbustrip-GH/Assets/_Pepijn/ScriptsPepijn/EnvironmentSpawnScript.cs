@@ -17,35 +17,35 @@ public class EnvironmentSpawnScript : MonoBehaviour
     private int environmentInt;
     private void InstantiateEnvironment()
     {
-        if (environmentInt < 8)
+        if (environmentInt < 6)
         {
             while (instantiateInt == lastInstantiated)
             {
-                instantiateInt = Random.Range(0, 3);
+                instantiateInt = Random.Range(0, 4);
             }
             lastInstantiated = instantiateInt;
             Instantiate(environments1[instantiateInt], transform.position, Quaternion.identity);
         }
-        else if (environmentInt < 16)
+        else if (environmentInt < 12)
         {
             while (instantiateInt == lastInstantiated)
             {
-                instantiateInt = Random.Range(0, 3);
+                instantiateInt = Random.Range(0, 4);
             }
             lastInstantiated = instantiateInt;
             Instantiate(environments2[instantiateInt], transform.position, Quaternion.identity);
         }
-        else if (environmentInt < 24)
+        else if (environmentInt < 18)
         {
             while (instantiateInt == lastInstantiated)
             {
-                instantiateInt = Random.Range(0, 3);
+                instantiateInt = Random.Range(0, 4);
             }
             lastInstantiated = instantiateInt;
             Instantiate(environments3[instantiateInt], transform.position, Quaternion.identity);
         }
 
-        else if(environmentInt < 25)
+        else if(environmentInt < 19)
         {
             Instantiate(BusStop, transform.position, Quaternion.identity);
             environmentInt = 0;

@@ -4,40 +4,38 @@ using UnityEngine;
 
 public class StaticVariables : MonoBehaviour
 {
-    [SerializeField]
-    public static float moveSpeed = 0.1f;
-    [SerializeField]
-    public static float fasterMovementSpeed = 0.15f;
-    [SerializeField]
+    public static float moveSpeed;
     public static bool fasterMovement;
     public float fasterMoveTime;
+
+    [SerializeField]
     public float speed;
+    public float fasterSpeed;
 
     private float timer;
     public void Update()
     {
-        
         if(!fasterMovement)
         {
+            moveSpeed = speed;
             if (Input.GetKeyDown("space"))
             {
                 fasterMovement = true;
             }
         }
-        if (fasterMovement)
+        else
         {
             if (timer < 0)
             {
                 fasterMovement = false;
                 timer = fasterMoveTime;
-                moveSpeed = 0.1f;
+
             }
             else
             {
                 timer -= Time.deltaTime;
-                moveSpeed = fasterMovementSpeed;
+                moveSpeed = fasterSpeed;
             }
         }
-        speed = moveSpeed;
     }
 }
