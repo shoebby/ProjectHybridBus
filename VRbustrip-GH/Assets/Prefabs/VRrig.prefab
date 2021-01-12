@@ -1456,7 +1456,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   inputSource: 4
-  jumpInputSource: 0
+  jumpInputSource: 5
 --- !u!114 &796197612988286551
 MonoBehaviour:
   m_ObjectHideFlags: 0

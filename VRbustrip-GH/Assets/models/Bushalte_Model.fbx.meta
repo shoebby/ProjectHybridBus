@@ -3,7 +3,47 @@ guid: da1e594260761b44caec9950c9046055
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushalte_Bankje_Material
+    second: {fileID: 2100000, guid: 35d59ca8d83e7a24d9556ff85b1bb082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushalte_Dakje_geel_Material
+    second: {fileID: 2100000, guid: 14e374c0f2e1a2f4bac3fa98d77acf88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushalte_Dakje_rood_Material
+    second: {fileID: 2100000, guid: 3ae12a8b04803c842ad68b9027c175c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushalte_Glazen_Material
+    second: {fileID: 2100000, guid: 9c78b1249f5667c418f99a2eccf58237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushalte_Grond_Material
+    second: {fileID: 2100000, guid: 0cc4cd5a5accf884ab2c194bc3d3c123, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushlate_BovendeelDak_Material
+    second: {fileID: 2100000, guid: b312ab5e81d95324e8557ef0339eedb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushokje_Muren_Materiaal
+    second: {fileID: 2100000, guid: 4fa89915287400940b5c6ae4160109ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bushokje_Pilaren_Materiaal
+    second: {fileID: 2100000, guid: 56096a1bb2e91f64ba55f76985e62b63, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
