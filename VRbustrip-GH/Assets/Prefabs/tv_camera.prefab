@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1085949580653510937}
   - component: {fileID: 6725690409648050760}
   - component: {fileID: 564147495050810946}
+  - component: {fileID: 9191901826937478196}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -170,6 +171,37 @@ MonoBehaviour:
   m_maskType: 0
   _SortingLayerID: 0
   _SortingOrder: 0
+--- !u!114 &9191901826937478196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347939202577197906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03f5a08e3c1c494e9f175f55cf2fdd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prompts:
+  - 'What movie completely changes its plot when you change one letter in its title? '
+  - 'What would be the absolute worst name you could give your child? '
+  - "What is the weirdest thing you have seen in someone else\u2019s home? "
+  - 'If you were given the opportunity to travel through space, would you leave earth? '
+  - 'If you were immortal, what would you do? '
+  - "What\u2019s the bravest thing you've ever done? "
+  - 'What would be the creepiest thing you could say while passing a stranger on
+    the street? '
+  - 'What is the worst pick-up line you know? '
+  - 'What is the best joke you know by heart? '
+  - 'What is the worst superpower you can think of? '
+  - 'What is the weirdest compliment you''ve ever received? '
+  - 'If you were an animal, what animal would you be? '
+  - "What is the worst advice you\u2019ve ever received? "
+  - 'What is your favourite bad movie? '
+  displayedPrompt: 
+  displaySpace: {fileID: 0}
+  switchTime: 5
 --- !u!1 &4539265386639130568
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +263,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0afa6b1a850e5e54096395447b1aec52, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
