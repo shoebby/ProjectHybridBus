@@ -941,6 +941,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 637881074285156335, guid: 8300225add86c4646963f9bc0df2e61f, type: 3}
+      propertyPath: opdrachten.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 637881074285156335, guid: 8300225add86c4646963f9bc0df2e61f, type: 3}
+      propertyPath: opdrachten.Array.data[0]
+      value: 'Opdracht 1: Gooi 8 dingen in de prullenbak.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 637881074285156335, guid: 8300225add86c4646963f9bc0df2e61f, type: 3}
+      propertyPath: opdrachten.Array.data[1]
+      value: 'Opdracht 2: Zet 8 dingen op de groene stoelen neer.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 637881074285156335, guid: 8300225add86c4646963f9bc0df2e61f, type: 3}
+      propertyPath: opdrachten.Array.data[2]
+      value: 'Opdracht 3: Ga zo snel mogelijk van de vloer af.'
+      objectReference: {fileID: 0}
     - target: {fileID: 1004429317749839429, guid: 8300225add86c4646963f9bc0df2e61f, type: 3}
       propertyPath: m_Range
       value: 93.54
@@ -4657,7 +4673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f291c86021f88fa4e8ff330ac0053cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opdracht2IsFinisht: 0
   cube: {fileID: 267720835}
   collisionPrefab: {fileID: 334381048257044417, guid: 99b0340402fc9ed41ad32b07b077bd79, type: 3}
   collisionPlaces:
@@ -5268,7 +5283,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh245330
+  m_Name: pb_Mesh137850
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6903,7 +6918,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1021188
+  m_Name: pb_Mesh-263182
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10417,7 +10432,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1020568
+  m_Name: pb_Mesh-262832
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11016,7 +11031,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1020598
+  m_Name: pb_Mesh-262864
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11401,7 +11416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f291c86021f88fa4e8ff330ac0053cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opdracht2IsFinisht: 0
   cube: {fileID: 988069226}
   collisionPrefab: {fileID: 1010965562415296098, guid: 0187e7af732da764dbbb6cd1124def55, type: 3}
   collisionPlaces:

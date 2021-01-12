@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Opdracht2Main : MonoBehaviour
 {
-    public bool opdracht2IsFinisht;
+    public static bool opdracht2HasFinished;
     public GameObject cube;
     public GameObject collisionPrefab;
     public static int colliderInt;
@@ -32,7 +32,7 @@ public class Opdracht2Main : MonoBehaviour
             else if (colliderInt == 8)
             {
                 cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0085f);
-                opdracht2IsFinisht = true;
+                opdracht2HasFinished = true;
                 StaticVariables.fasterMovement = true;
                 colliderInt++;
             }
