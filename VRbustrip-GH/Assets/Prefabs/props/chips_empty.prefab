@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1448377341498342648}
   m_Layer: 7
   m_Name: chips_empty
-  m_TagString: Untagged
+  m_TagString: Interactible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

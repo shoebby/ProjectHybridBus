@@ -7,20 +7,27 @@ public class Opdracht1 : MonoBehaviour
     private int triggerCounter;
     public GameObject cube;
     public bool opdracht1IsFinisht;
+    public static bool Opdracht1HasFisnished;
     private void Update()
     {
         if (triggerCounter == 2)
         {
-            cube.transform.localScale = new Vector3(0.3f, 0.3f, 0.1f);
+            cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0003f);
         }
         else if (triggerCounter == 4)
         {
-            cube.transform.localScale = new Vector3(0.6f, 0.3f, 0.1f);
+            cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0055f);
         }
-        else if (triggerCounter == 6)
+        else if (triggerCounter == 8)
         {
-            cube.transform.localScale = new Vector3(1f, 0.3f, 0.1f);
+            cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0085f);
             opdracht1IsFinisht = true;
+            triggerCounter++;
+            StaticVariables.fasterMovement = true;
+        }
+        else if (triggerCounter > 8)
+        {
+            cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0085f);
         }
     }
     private void Start()

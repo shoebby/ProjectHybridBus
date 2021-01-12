@@ -19,18 +19,27 @@ public class Opdracht2Main : MonoBehaviour
     }
     private void Update()
     {
-        if (colliderInt == 2)
+        if (Opdracht1.Opdracht1HasFisnished)
         {
-            cube.transform.localScale = new Vector3(0.3f, 0.3f, 0.1f);
-        }
-        else if (colliderInt == 4)
-        {
-            cube.transform.localScale = new Vector3(0.6f, 0.3f, 0.1f);
-        }
-        else if (colliderInt == 6)
-        {
-            cube.transform.localScale = new Vector3(1f, 0.3f, 0.1f);
-            opdracht2IsFinisht = true;
+            if (colliderInt == 2)
+            {
+                cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0003f);
+            }
+            else if (colliderInt == 4)
+            {
+                cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0055f);
+            }
+            else if (colliderInt == 8)
+            {
+                cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0085f);
+                opdracht2IsFinisht = true;
+                StaticVariables.fasterMovement = true;
+                colliderInt++;
+            }
+            else if (colliderInt > 8)
+            {
+                cube.transform.localScale = new Vector3(0.006f, 0.007f, 0.0085f);
+            }
         }
     }
 }

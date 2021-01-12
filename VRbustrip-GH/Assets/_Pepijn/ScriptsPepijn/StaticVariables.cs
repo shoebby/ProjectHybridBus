@@ -18,6 +18,7 @@ public class StaticVariables : MonoBehaviour
         if(!fasterMovement)
         {
             moveSpeed = speed;
+            //Voor overwrite als de opdrachten niet goed gaan.
             if (Input.GetKeyDown("space"))
             {
                 fasterMovement = true;

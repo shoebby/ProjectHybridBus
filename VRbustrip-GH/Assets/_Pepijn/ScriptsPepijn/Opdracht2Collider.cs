@@ -9,7 +9,6 @@ public class Opdracht2Collider : MonoBehaviour
         if (other.tag == "Interactible")
         {
             Opdracht2Main.colliderInt++;
-            Debug.Log("hi");
         }
     }
 }
