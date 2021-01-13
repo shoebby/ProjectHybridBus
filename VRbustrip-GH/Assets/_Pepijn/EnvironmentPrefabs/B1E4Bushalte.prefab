@@ -32173,7 +32173,8 @@ MonoBehaviour:
   transition: {fileID: 0}
   transitionTime: 2
   levelLoader: {fileID: 0}
-  sceneName: MainMenu
+  sceneName: busStop
+  inputSource: 4
 --- !u!1 &9072410365856344181
 GameObject:
   m_ObjectHideFlags: 0

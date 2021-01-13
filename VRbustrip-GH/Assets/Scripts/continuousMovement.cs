@@ -34,7 +34,7 @@ public class continuousMovement : MonoBehaviour
         InputDevice offhandDevice = InputDevices.GetDeviceAtXRNode(jumpInputSource);
 
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
-        offhandDevice.TryGetFeatureValue(CommonUsages.primaryButton, out jumpPressed);
+        offhandDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out jumpPressed);
     }
 
     private void FixedUpdate()

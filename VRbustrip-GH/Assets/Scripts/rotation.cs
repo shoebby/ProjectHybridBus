@@ -6,6 +6,6 @@ public class rotation : MonoBehaviour
 {
     void Update()
     {
-        transform.Rotate(0, 0, 15 * Time.deltaTime); //rotates 50 degrees per second around z axis
+        transform.Rotate(0, 15, 0 * Time.deltaTime); //rotates 50 degrees per second around z axis
     }
 }
